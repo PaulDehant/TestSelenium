@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.Test1" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-04-15T07:50:43" hostname="DESKTOP-5K452S1" time="1.75">
+<testsuite name="ru.netology.Test1" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-04-15T07:56:48" hostname="DESKTOP-5K452S1" time="1.53">
   <properties/>
-  <testcase name="shouldFullForm()" classname="ru.netology.Test1" time="1.75">
-    <failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:61172/devtools/browser/c8c46e56-9b04-40d3-93da-6fd09510440e&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:61172/devtools/browser/c8c46e56-9b04-40d3-93da-6fd09510440e
+  <testcase name="shouldFullForm()" classname="ru.netology.Test1" time="1.53">
+    <failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:61374/devtools/browser/68c86b89-8669-4caa-8211-4c34fa67bb52&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:61374/devtools/browser/68c86b89-8669-4caa-8211-4c34fa67bb52
 Build info: version: '4.5.0', revision: 'fe167b119a'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: driver.version: ChromeDriver
@@ -142,13 +142,13 @@ Driver info: driver.version: ChromeDriver
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 61139
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 57273
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-апр. 15, 2023 10:50:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр. 15, 2023 10:56:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-апр. 15, 2023 10:50:45 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+апр. 15, 2023 10:56:50 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Invalid Status code=403 text=Forbidden
 java.io.IOException: Invalid Status code=403 text=Forbidden
 	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
